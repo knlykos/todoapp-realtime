@@ -1,0 +1,37 @@
+{
+	"environment": "development",
+	"port": 3001,
+	"appURL": "http://localhost:",
+	"appName": "Timer",
+	"postgresql": {
+		"user": "postgres",
+		"password": "mysecretpassword",
+		"database": "nkodex_todoapp",
+		"host": "172.17.0.3",
+		"port": 5432,
+		"ssl": false
+	},
+	"jwt": {
+		"secret": "secret",
+		"expiresIn": "1d"
+	},
+	"logger": {
+		"level": "debug"
+	},
+	"mail": {
+		"transporter": {
+			"host": "smtp.ethereal.email",
+			"port": 587,
+			"auth": {
+				"user": "arden.farrell21@ethereal.email",
+				"pass": "cfswruSqEBfmqaYCZs"
+			}
+		},
+		"templatesFolder": "",
+		"from": "nlopezg87@gmail.com"
+	},
+	"redis": {
+		"url": "redis://redis-11774.c1.us-central1-2.gce.cloud.redislabs.com:11774",
+		"password": "Nefo123.."
+	}
+}
